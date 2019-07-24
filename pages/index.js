@@ -42,7 +42,7 @@ class Index extends Component {
                                             </div>
                                        </li>
 
-                                       <li>
+                                       {/* <li>
                                             <h4>Frontend web designer (Freelance)</h4>
                                             <h5>BCJ-mudia.com (2014 - Present)</h5>
                                             <div className="ex-text">
@@ -55,7 +55,7 @@ class Index extends Component {
                                                 - Digital retouching and image editing <br />
                                                 - Collaborate with other team members and stakeholders
                                             </div>
-                                       </li>
+                                       </li> */}
                                    </ul>
                                 </section> 
                             </div>
