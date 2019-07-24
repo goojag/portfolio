@@ -1,0 +1,68 @@
+header{ 
+    padding:100px 0; background: rgba(0,0,0,0.65);
+
+    .box-border{
+        border:1px solid #fff;
+        width:fit-content; padding:40px 90px;
+        margin:0px 20px 0 0px;
+        float: right; font-weight: 300;
+        text-align: center;
+        background:#000;
+
+        h4{
+            margin:15px 0 7px;
+            font-weight: 300;
+            font-size:1.4rem;
+        }
+    }
+
+    .profile-img{
+        height: 180px; width:180px; border-radius: 50%;
+        overflow: hidden;
+
+        img{
+            display:block; width:100%;
+        }
+    }
+}
+
+// #__next-prerender-indicator {
+//     display: none;
+// }
+
+.top-detail{
+    h2{
+        border-bottom:1px solid #aaa;
+        margin:0 0 20px; padding:0 0 20px;
+        font-size:1.6rem; font-weight: 300;
+        line-height: 1.4;
+        color:$themecolor3;
+    }
+
+    p{
+        text-align: left; margin:0 0 7px;
+        font-weight: 200;
+
+        span{
+            text-align: left;
+            display:inline-block;
+            vertical-align: top;
+
+            &:first-child{
+                width:20%;
+
+                &:after{
+                    content:':'; display:inline-block;
+                    float: right;
+                }
+            }
+
+            &:last-child{
+                width:80%; box-sizing: border-box;
+                padding-left:20px;
+                
+            }
+        }
+    }
+}
+
