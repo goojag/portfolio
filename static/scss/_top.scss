@@ -1,5 +1,6 @@
 header{ 
-    padding:100px 0; background: rgba(0,0,0,0.65);
+    padding:100px 0; background:url("/static/images/head.jpg") no-repeat center bottom  fixed;
+    background-size:cover;
 
     .box-border{
         border:1px solid #fff;
@@ -7,7 +8,8 @@ header{
         margin:0px 20px 0 0px;
         float: right; font-weight: 300;
         text-align: center;
-        background:#000;
+        @extend .bg-transparent;
+        
 
         h4{
             margin:15px 0 7px;

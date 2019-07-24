@@ -33,23 +33,20 @@
       "commons": 0,
       "static/runtime/webpack.js": 1,
       "static/runtime/main.js": 2,
-      "static\\wop6PEfJQbPHIPCpP6jl7\\pages\\_app.js": 3,
-      "static\\wop6PEfJQbPHIPCpP6jl7\\pages\\_error.js": 4,
-      "static\\wop6PEfJQbPHIPCpP6jl7\\pages\\index.js": 5,
-      "styles": 6,
-      "static\\mPJ_flMW6V3AcKZVXGC4b\\pages\\_app.js": 7,
-      "static\\mPJ_flMW6V3AcKZVXGC4b\\pages\\_error.js": 8,
-      "static\\mPJ_flMW6V3AcKZVXGC4b\\pages\\index.js": 9
+      "static\\WqjKOzx7Z__yhL0y7d04H\\pages\\_app.js": 3,
+      "static\\WqjKOzx7Z__yhL0y7d04H\\pages\\_error.js": 4,
+      "static\\WqjKOzx7Z__yhL0y7d04H\\pages\\index.js": 5,
+      "styles": 6
     },
     "bySource": {},
     "usedIds": [
       0,
       1,
       2,
-      6,
-      7,
-      8,
-      9
+      3,
+      4,
+      5,
+      6
     ]
   }
 }

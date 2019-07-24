@@ -66,3 +66,22 @@
         margin-top:25px;
     }
 }
+
+.design{
+    padding:80px 0; background:url("/static/images/head.jpg") no-repeat center fixed;
+    background-size:cover;
+
+    ul{
+        column-count: 4;
+    }
+
+    li{
+        list-style:none; border:2px solid #eee;
+        margin:0 10px 20px 0; border-radius: 15px;
+        break-inside: avoid; overflow: hidden;
+
+        a,img{
+            display:block; width:100%;
+        }
+    }
+}

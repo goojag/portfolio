@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap);
 @import url(/static/fonts/fa-free590/css/all.css);
-.align-between, footer {
+.align-between {
   display: flex;
   justify-content: space-between; }
 
@@ -14,8 +14,8 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
-.bg-transparent, footer {
-  background: rgba(0, 0, 0, 0.85); }
+.bg-transparent, header .box-border {
+  background: rgba(0, 0, 0, 0.9); }
 
 body, html {
   margin: 0;
@@ -135,7 +135,8 @@ label {
 
 header {
   padding: 100px 0;
-  background: rgba(0, 0, 0, 0.65); }
+  background: url("/static/images/head.jpg") no-repeat center bottom fixed;
+  background-size: cover; }
   header .box-border {
     border: 1px solid #fff;
     width: fit-content;
@@ -143,8 +144,7 @@ header {
     margin: 0px 20px 0 0px;
     float: right;
     font-weight: 300;
-    text-align: center;
-    background: #000; }
+    text-align: center; }
     header .box-border h4 {
       margin: 15px 0 7px;
       font-weight: 300;
@@ -194,7 +194,7 @@ header {
   max-width: 100%; }
 
 .contain {
-  padding: 50px 0;
+  padding: 50px 0 0;
   clear: both; }
 
 .shadow {
@@ -252,20 +252,43 @@ header {
 .edu-box h4 {
   margin-top: 25px; }
 
-footer {
+.design {
+  padding: 80px 0;
+  background: url("/static/images/head.jpg") no-repeat center fixed;
+  background-size: cover; }
+  .design ul {
+    column-count: 4; }
+  .design li {
+    list-style: none;
+    border: 2px solid #eee;
+    margin: 0 10px 20px 0;
+    border-radius: 15px;
+    break-inside: avoid;
+    overflow: hidden; }
+    .design li a, .design li img {
+      display: block;
+      width: 100%; }
+
+nav {
+  background: #000000;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 10px 10px 10px 30px;
+  border-radius: 35px 0px 0 35px;
+  font-size: 1rem;
   position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  padding: 10px 0; }
-  footer .copyright {
-    text-align: right;
-    width: 100%;
+  top: 35%;
+  right: 0;
+  border: 2px solid #055097; }
+  nav a {
     display: block;
-    font-size: 0.8rem; }
+    margin: 15px 0;
+    color: #ecd286; }
+    nav a:hover {
+      color: #fff; }
 
 /*/////////////// Responsive ////////////////*/
-.align-between, footer {
+.align-between {
   display: flex;
   justify-content: space-between; }
 
@@ -279,8 +302,8 @@ footer {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
-.bg-transparent, footer {
-  background: rgba(0, 0, 0, 0.85); }
+.bg-transparent, header .box-border {
+  background: rgba(0, 0, 0, 0.9); }
 
 @media only screen and (max-width: 1170px) {
   .box-inner {

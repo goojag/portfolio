@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Layout from "../components/Layout";
+import Link from "next/link";
 
 class Index extends Component {
     render() {
@@ -87,6 +88,23 @@ class Index extends Component {
                             </div>
                         </div>{/* end .row */}
                     </div>{/* end .box-inner */}
+
+                    <section className="design">
+                        <div className="box-inner">
+                        <ul>
+                            <li><Link href=""><a><img src="/static/images/port/thumb_1.jpg" alt="" /></a></Link></li>
+                            <li><Link href=""><a><img src="/static/images/port/thumb_2.jpg" alt="" /></a></Link></li>
+                            <li><Link href=""><a><img src="/static/images/port/thumb_3.jpg" alt="" /></a></Link></li>
+                            <li><Link href=""><a><img src="/static/images/port/thumb_4.jpg" alt="" /></a></Link></li>
+                            <li><Link href=""><a><img src="/static/images/port/thumb_5.jpg" alt="" /></a></Link></li>
+                            <li><Link href=""><a><img src="/static/images/port/thumb_6.jpg" alt="" /></a></Link></li>
+                            <li><Link href=""><a><img src="/static/images/port/thumb_7.jpg" alt="" /></a></Link></li>
+                            <li><Link href=""><a><img src="/static/images/port/thumb_8.jpg" alt="" /></a></Link></li>
+                            {/* <li><Link href=""><a><img src="/static/images/port/thumb_9.jpg" alt="" /></a></Link></li> */}
+                            <li><Link href=""><a><img src="/static/images/port/thumb_10.jpg" alt="" /></a></Link></li>
+                        </ul>
+                        </div>{/* end .box-inner */}
+                    </section>{/* end .row */}
                 </div>{/* end ..container */}
             </Layout>
         );
