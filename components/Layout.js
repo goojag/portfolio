@@ -2,18 +2,21 @@ import React, { Component } from "react";
 import Head from "next/head";
 import Header from "./Header";
 import Footer from "./Footer";
-import "../static/scss/style.scss";
 
 class Layout extends Component {
     render() {
-        const { children, title="Rachan Maichom" } = this.props;
+        const { 
+            children, 
+            title="Rachan Maichom", 
+        } = this.props;
         return (
-            <div>
+            <div className="main">
                 <Head>
                     <title>{title}</title>
                     <meta charSet="utf-8" />
                     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+                    <script src="/assets/js/jquery-3.4.1.min.js"></script>
+                    <script src="/assets/js/main.js"></script>
                 </Head>
 
                 <Header />

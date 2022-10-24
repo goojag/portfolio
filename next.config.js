@@ -1,6 +1,17 @@
-const withSASS = require("@zeit/next-sass");
-module.exports = withSASS();
+const path = require('path');
 
+module.exports = {
+  webpack: config => {
+    config.resolve.modules.push(path.resolve(__dirname));
+    return config;
+  },
 
-// const withCSS = require("@zeit/next-css");
-// module.exports = withCSS();
+  trailingSlash: true,
+    exportPathMap: function() {
+      return {
+        '/': { page: '/' },
+        '/projects/:cid': { page: '/projects/[cid]' },
+        '/projects/:cid/:id': { page: '/projects/[cid]/[id]' }
+      }
+    }
+};

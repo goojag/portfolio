@@ -1,0 +1,59 @@
+
+
+@include breakpoint(medium) {
+	header{
+		.menu-top{
+			font-size:16px;
+
+			li{
+				 margin:0 30px 0 0;
+			}
+		}
+
+		.box-border{
+			float:none; margin:0 auto 30px;
+			max-width:100%; box-sizing: border-box;
+			padding:30px 50px;
+		}
+	}
+
+
+	.experience{
+		li{
+			width:100%; margin:0 0 20px;
+
+			&:nth-child(2){
+				margin:0 0 20px;
+			}
+		}
+	}
+
+	.skills-list{
+		ul{
+			columns: 2; column-gap: 20;
+		}
+		
+		li{
+			width:48%; margin:0 0 20px;
+
+			&:nth-child(2n){
+				margin:0 0 20px;
+			}
+			
+		}
+	}
+
+	.skills-icon{
+		.icon{
+			margin-bottom:20px;
+		}
+	}
+
+
+	.port-link{
+		ul{
+			column-count: 1;
+		}
+	}
+
+}

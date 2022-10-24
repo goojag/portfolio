@@ -1,113 +1,173 @@
-import React, { Component } from "react";
-import Layout from "../components/Layout";
-import Link from "next/link";
+import React, { Component } from "react"
+import Layout from "../components/Layout"
 
 class Index extends Component {
     render() {
         return (
             <Layout>
-                <div className="contain">
+                <header>
                     <div className="box-inner">
                         <div className="row">
-                            <div className="col-md-7">
-                               <section className="experience section-box">
-                                   <h3><i className="far fa-address-card"></i><span>Experience</span></h3>
-                                   <ul>
-                                       <li>
-                                            <h4>Frontend Web Designer</h4>
-                                            <h5>Nation Multimedia Group Public Company Limited. (Feb 2016-Present)</h5>
-                                            <div className="ex-text">
-                                                - Designing webpage layout <br />
-                                                - Updating websites <br />
-                                                - Writing and editing content <br />
-                                                - Develop new user-facing features <br />
-                                                - Producing sample sites <br />
-                                                - HTML CSS and Javascript <br />
-                                                - Digital retouching and image editing <br />
-                                                - Collaborate with other team members and stakeholders
-                                            </div>
-                                       </li>
-
-                                       <li>
-                                            <h4>Frontend Web Designer</h4>
-                                            <h5>Kawna Broker (Seb2014 - Jan2015)</h5>
-                                            <div className="ex-text">
-                                                - Designing webpage layout <br />
-                                                - Updating websites <br />
-                                                - Writing and editing content <br />
-                                                - Develop new user-facing features <br />
-                                                - Producing sample sites <br />
-                                                - HTML CSS and Javascript <br />
-                                                - Digital retouching and image editing <br />
-                                                - Collaborate with other team members and stakeholders
-                                            </div>
-                                       </li>
-
-                                       <li>
-                                            <h4>Frontend web designer (Freelance)</h4>
-                                            <h5>BCJ-mudia.com (2014 - Present)</h5>
-                                            <div className="ex-text">
-                                                - Designing webpage layout <br />
-                                                - Updating websites <br />
-                                                - Writing and editing content <br />
-                                                - Develop new user-facing features <br />
-                                                - Producing sample sites <br />
-                                                - HTML CSS and Javascript <br />
-                                                - Digital retouching and image editing <br />
-                                                - Collaborate with other team members and stakeholders
-                                            </div>
-                                       </li>
-                                   </ul>
-                                </section> 
+                            <div className="col-md-4">
+                                <div className="box-border">
+                                    <div className="profile-img"><img src="/assets/images/profile.jpg" alt="" /></div>
+                                    <h4>Rachan Maichom</h4>
+                                    <p>Frontend Web Designer</p>
+                                </div>
                             </div>
-
-                            <div className="col-md-5">
-                                <section className="section-box edu-box">
-                                    <h3><i className="fas fa-graduation-cap"></i><span>Education</span></h3>
-                                    <h4>Bangkok Business College</h4>
-                                    <h5>Majoring in Business computer</h5>
-                                </section>
-
-                                <section className="section-box">
-                                    <h3><i className="far fa-lightbulb"></i><span>Skills</span></h3>
-                                    <div className="list">
-                                        <p>- My SQL, PHP, Codeigniter</p>
-                                        <p>- Photoshop, Illustrator</p>
-                                        <p>- React JS, Next JS, Node JS, Jquery</p>
-                                        <p>- Version control</p>
-                                        <p>- Fast learner and positive attitude in teamwork environment.</p>
-                                    </div>
-                                </section>
-
-                                <section className="skills-icon">
-                                    <div className="icon">
-                                        <image src="" alt="" />
-                                        <p></p>
-                                    </div>
+                            <div className="col-md-8">
+                                <section className="top-detail">
+                                    <h2>I am enjoy to work as a website designer and capable to achieve the target beyond company</h2>
+                                    <p><span>Address</span><span>99/92 Patreeda Avenue Pathumtani 2 Village, Krachaeng, Sam Khok, Pathum Thani 12160</span></p>
+                                    <p><span>Telephone</span><span>062-403-4045 </span></p>
+                                    <p><span>Email adress</span><span>rachan.jack@gmail.com </span></p>
+                                    <p><span>Birth date </span><span>13 Jan 1981 </span></p>
+                                    <p><span>Nationality</span><span>Thai</span></p>
+                                    <p><span>Age</span><span>41 </span></p>
+                                    <p><span>Marital status 	</span><span>Single</span></p>
                                 </section>
                             </div>
                         </div>{/* end .row */}
-                    </div>{/* end .box-inner */}
-
-                    <section className="design">
+                    </div>
+                </header>
+                <div className="contain">
+                    <section className="experience section-box">
                         <div className="box-inner">
+                        <h3><span>Experience</span></h3>
                         <ul>
-                            <li><Link href=""><a><img src="/static/images/port/thumb_1.jpg" alt="" /></a></Link></li>
-                            <li><Link href=""><a><img src="/static/images/port/thumb_2.jpg" alt="" /></a></Link></li>
-                            <li><Link href=""><a><img src="/static/images/port/thumb_3.jpg" alt="" /></a></Link></li>
-                            <li><Link href=""><a><img src="/static/images/port/thumb_4.jpg" alt="" /></a></Link></li>
-                            <li><Link href=""><a><img src="/static/images/port/thumb_5.jpg" alt="" /></a></Link></li>
-                            <li><Link href=""><a><img src="/static/images/port/thumb_6.jpg" alt="" /></a></Link></li>
-                            <li><Link href=""><a><img src="/static/images/port/thumb_7.jpg" alt="" /></a></Link></li>
-                            <li><Link href=""><a><img src="/static/images/port/thumb_8.jpg" alt="" /></a></Link></li>
-                            {/* <li><Link href=""><a><img src="/static/images/port/thumb_9.jpg" alt="" /></a></Link></li> */}
-                            <li><Link href=""><a><img src="/static/images/port/thumb_10.jpg" alt="" /></a></Link></li>
+
+                            <li>
+                                <h4>Senior Frontend Web developer</h4>
+                                <h5>Amarin Television (October 2020 - Present)</h5>
+                                <div className="ex-text">
+                                    - Updating websites <br />
+                                    - Writing and editing content <br />
+                                    - Develop new user-facing features <br />
+                                    - Producing sample sites <br />
+                                    - HTML CSS and Javascript <br />
+                                    - Digital retouching and image editing <br/>
+                                    - Ads
+                                </div>
+                            </li>
+
+                            <li>
+                                <h4>Frontend web developer</h4>
+                                <h5>Nation Multimedia Group Public Company Limited. (Feb 2016-May 2020)</h5>
+                                <div className="ex-text">
+                                    - Designing webpage layout <br />
+                                    - Updating websites <br />
+                                    - Writing and editing content <br />
+                                    - Develop new user-facing features <br />
+                                    - Producing sample sites <br />
+                                    - HTML CSS and Javascript <br />
+                                    - Digital retouching and image editing 
+                                </div>
+                            </li>
+
+                            <li>
+                                <h4>Frontend web designer and Web UX/UI designer (Freelance)</h4>
+                                <h5>BCJ-mudia.com (2014 - Present)</h5>
+                                <div className="ex-text">
+                                    - UX/UI Designing webpage layout <br />
+                                    - UX/UI Designing application layout <br />
+                                    - Updating websites <br />
+                                    - Writing and editing content <br />
+                                    - Develop new user-facing features <br />
+                                    - Producing sample sites <br />
+                                    - HTML CSS and Javascript <br />
+                                    - Digital retouching and image editing 
+                                </div>
+                            </li>
                         </ul>
+                        </div>
+                        {/* end .box-inner */}
+                    </section>
+
+
+                    <section className="section-box skills-list">
+                        <div className="box-inner">
+                            {/* <h3><span>Skills</span></h3> */}
+                            <ul className="list">
+                                <li>
+                                    <p>Adobe XD</p>
+                                    <p>Figma</p>
+                                    <p>Photoshop</p>
+                                    <p>Illustrator</p>
+                                </li>
+
+                                <li>
+                                    <p>React JS</p>
+                                    <p>Next JS</p>
+                                    <p>PHP</p>
+                                    <p>My SQL</p>
+                                </li>
+                                
+                                
+                                <li>
+                                    <p>HTML5</p>
+                                    <p>SCSS</p>
+                                    <p>CSS3</p>
+                                    <p>Javascript</p>
+                                </li>
+                                {/* <li>Fast learner and positive attitude in teamwork environment.</li> */}
+                            </ul>
+
+                            {/* <Skills>test</Skills> */}
+
+                            {/* <section className="skills-icon">
+                                <div className="icon icon1">
+                                    <img src="/assets/images/i-psd.jpg" alt="" />
+                                    <p>Photoshop</p>
+                                </div>
+                                <div className="icon icon2" >
+                                    <img src="/assets/images/i-ai.jpg" alt="" />
+                                    <p>Illustrator</p>
+                                </div>
+                                <div className="icon icon3">
+                                    <img src="/assets/images/i-code.jpg" alt="" />
+                                    <p>Codding</p>
+                                </div>
+                            </section> */}
+                        </div>
+                        {/* end .box-inner */}
+                    </section>
+
+                    <section className="design-port">
+                        <div className="box-inner">
+
                         </div>{/* end .box-inner */}
-                    </section>{/* end .row */}
-                </div>{/* end ..container */}
+                    </section>
+
+                    <section className="port-link"> 
+                        <div className="box-inner">
+                            <ul>
+                                <li><a target="_blank" rel="noreferrer" href="http://amarintv.com">Amarin TV</a></li>
+                                <li><a target="_blank" rel="noreferrer" href="https://komchadluek.net">Komchadluek</a></li>
+                                <li><a target="_blank" rel="noreferrer" href="http://www.bangkokbiznews.com">Bangkokbiznews</a></li>
+                                <li><a target="_blank" rel="noreferrer" href="https://renovate.boonthavorn.com/">Renovate Boonthavorn</a></li>
+                                <li><a target="_blank" rel="noreferrer" href="http://www.thansettakij.com">Thansettakij</a></li>
+                                <li><a target="_blank" rel="noreferrer" href="http://bcj-media.com/html/NBC">NBC</a></li>
+                                <li><a target="_blank" rel="noreferrer" href="http://bcj-media.com/html/boi2019">BOI</a></li>
+                                <li><a target="_blank" rel="noreferrer" href="http://bcj-media.com/html/suthichai2">Sutthichai Yoon</a></li>
+                                <li><a target="_blank" rel="noreferrer" href="https://bcj-media.com/html/ppmedicare/">PP Medicare</a></li>
+                                <li><a target="_blank" rel="noreferrer" href="http://bcj-media.com/html/property-perfect">Property perfect</a></li>
+                                <li><a target="_blank" rel="noreferrer" href="https://www.nationthailand.com">Nation Thailand</a></li>
+                                <li><a target="_blank" rel="noreferrer" href="https://www.jesseandson.com/">Jesse and Son</a></li>
+                                <li><a target="_blank" rel="noreferrer" href="http://bcj-media.com/html/philiplife">Philiplife</a></li>
+                                <li><a target="_blank" rel="noreferrer" href="http://bcj-media.com/html/srw">SRW</a></li>
+                                <li><a target="_blank" rel="noreferrer" href="http://koratzoo-edu.org/">Korat Zoo</a></li>
+                                <li><a target="_blank" rel="noreferrer" href="http://bcj-media.com/html/holiday-palace">Holiday Palace</a></li>
+                                <li><a target="_blank" rel="noreferrer" href="https://bcj-media.com/html/tangko2021/">Tangko</a></li>
+                                <li><a target="_blank" rel="noreferrer" href="https://www.vinythai.co.th/th/home/">Viny Thai</a></li>
+                                <li><a target="_blank" rel="noreferrer" href="http://www.inside2home.com/">Inside2home</a></li>
+                                <li><a target="_blank" rel="noreferrer" href="http://www.pbtabien.com/">PB Tabien</a></li>
+                            </ul>
+                        </div>{/* end .box-inner */}
+                    </section>
+
+                </div>{/* end ..contain */}
             </Layout>
-        );
+        )
     }
 }
  

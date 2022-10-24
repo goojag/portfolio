@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,600,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&display=swap');
+@import url("/assets/fonts/fa-free590/css/all.css"); 
+
+body,html{margin:0; padding:0; width:100%;}
+body{
+	background:url("/assets/images/bg.jpg") no-repeat center top fixed;
+	background-size:cover;
+	font:300 0.9rem/2 'Open Sans','Athiti', sans-serif, tahoma;
+	color:$textcolor2; 
+}
+
+#__next, .main{
+	width:100%;
+}
+
+ul{
+    margin:0; padding: 0;
+}
+
+img{
+    display: block; margin: 0px 0; width:100%; 
+}
+
+
+a{
+	color:$linkcolor; text-decoration: none; 
+	display: inline; display:inline-block;
+	@include transition(200ms);
+	
+	&:hover{text-decoration: none; color:$themecolor;} 
+}
+
+.p{
+    width:100%; margin: 0 0px 20px 0px; 
+    clear: both;
+}
+
+p{
+    margin: 0 0 0px 0; padding: 0;
+}
+
+br{
+	display: block; margin:0px 0 0px 0; line-height:0;
+	content:' ';
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
