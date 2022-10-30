@@ -1,17 +1,7 @@
-const path = require('path');
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+  swcMinify: true,
+}
 
-module.exports = {
-  webpack: config => {
-    config.resolve.modules.push(path.resolve(__dirname));
-    return config;
-  },
-
-  trailingSlash: true,
-    exportPathMap: function() {
-      return {
-        '/': { page: '/' },
-        '/projects/:cid': { page: '/projects/[cid]' },
-        '/projects/:cid/:id': { page: '/projects/[cid]/[id]' }
-      }
-    }
-};
+module.exports = nextConfig
